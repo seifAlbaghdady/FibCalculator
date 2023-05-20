@@ -1,20 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import OtherPage from './OtherPage';
 import Fib from './Fib';
+import './App.css';
 
 function App() {
   return (
     <Router>
-      <div className="App">
-        <header className="App-header">
-          <p>Fib Calculator</p>
-          <Link to="/">Home</Link>
-          <Link to="/otherpage">Other Page</Link>
+      <div className="app">
+        <header className="app-header">
+          <h1 className="app-title">Fib Calculator</h1>
+          <nav className="app-nav">
+            <Link to="/" className="app-link">Home</Link>
+            <Link to="/otherpage" className="app-link">Other Page</Link>
+          </nav>
         </header>
-        <div>
+        <div className="app-content">
           <Route exact path="/" component={Fib} />
           <Route path="/otherpage" component={OtherPage} />
         </div>
