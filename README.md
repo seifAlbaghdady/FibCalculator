@@ -16,7 +16,9 @@
 
   <h2>Running the Application</h2>
   <p>Use the following command to start the application:</p>
+  <pre><code>docker-compose up --build</code></pre>
   <pre><code>docker-compose up</code></pre>
+  
   <p>This command will build and start the necessary containers.</p>
 
   <h2>Accessing the Application</h2>
