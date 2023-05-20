@@ -16,7 +16,9 @@
 
   <h2>Running the Application</h2>
   <p>Use the following command to start the application:</p>
+  <pre><code>docker-compose up --build</code></pre>
   <pre><code>docker-compose up</code></pre>
+  
   <p>This command will build and start the necessary containers.</p>
 
   <h2>Accessing the Application</h2>
@@ -26,6 +28,7 @@
     <li>Frontend: <a href="http://localhost:80">http://localhost:80</a></li>
     <li>PostgreSQL: <code>localhost:5432</code></li>
     <li>Redis: <code>localhost:6379</code></li>
+    <li>http://localhost:3050</code></li>
   </ul>
 
   <h2>Stopping the Application</h2>
