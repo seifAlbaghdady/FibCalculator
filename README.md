@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <body>
+  ![Web](https://i.imgur.com/etbS6Yp.png)
+  
   <h1>Fib Calculator</h1>
 
   <h2>Overview</h2>
