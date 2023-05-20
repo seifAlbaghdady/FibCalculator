@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <body>
-  
+  <img align="right" alt="Coding" width="500" height="600" src="https://i.imgur.com/TRaFPEj.png"> 
+
   <h1>Fib Calculator</h1>
 
   <h2>Overview</h2>
