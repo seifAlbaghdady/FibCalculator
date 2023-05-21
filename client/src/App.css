@@ -1,33 +1,42 @@
 
 .app-header {
-  background-color: #282c34;
+  background-color: #f0f0f0;
   padding: 20px;
-  color: white;
+  text-align: center;
 }
 
 .app-title {
   margin: 0;
+  font-size: 24px;
 }
 
 .app-nav {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .app-link {
-  color: white;
-  margin: 10px;
+  margin: 0 10px;
+  color: #000;
   text-decoration: none;
 }
 
 .app-content {
+  max-width: 400px;
   padding: 20px;
-  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 
 
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -49,4 +58,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
 }
